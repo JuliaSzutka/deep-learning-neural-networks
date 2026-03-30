@@ -1,80 +1,43 @@
-# Image Classification (Fashion MNIST)
+# Deep Learning & Neural Networks
 
-## 📌 Description
+## 📌 About
 
-This project focuses on classifying images of clothing items using a Convolutional Neural Network (CNN).
+This repository contains deep learning projects and custom neural network implementations developed during my studies.
 
-## 📊 Dataset
+## 🧠 Models
 
-The dataset is loaded directly from TensorFlow:
+* Multi-Layer Perceptron (MLP) implemented from scratch
+* Convolutional Neural Networks (CNN)
+* Long Short-Term Memory (LSTM)
 
-```python
-tf.keras.datasets.fashion_mnist.load_data()
-```
+## 📂 Projects
 
-It is a built-in dataset (Fashion MNIST) provided by Zalando Research.
+### 🖼️ MNIST (CNN)
 
-## 🧠 Model
+Image classification using convolutional neural networks.
+Dataset: Built-in TensorFlow dataset (Fashion MNIST)
 
-* Convolutional Neural Network (CNN)
+### ✈️ Travel Insurance (MLP)
 
-## ⚙️ Features
+Customer classification using a neural network model.
+Dataset: https://www.kaggle.com/datasets/mhdzahier/travel-insurance
 
-* Image preprocessing
-* Model training and evaluation
-* Performance analysis
+### 🚗 Vehicle Price Prediction (MLP)
 
-## 🚀 Result
+Regression model for predicting vehicle prices.
+Dataset: https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
 
-The model successfully classifies clothing images into categories.
+## ⚙️ Key Features
 
+* Neural networks implemented from scratch
+* Custom activation functions and optimizers
+* Hyperparameter tuning
+* Multiprocessing
 
-# Travel Insurance Classification
+## 👥 Team Project
 
-## 📌 Description
+Developed as part of a group project.
 
-This project predicts whether a customer will purchase travel insurance using a neural network model.
+## 🚀 Goal
 
-## 📊 Dataset
-
-The dataset is sourced from Kaggle:
-https://www.kaggle.com/datasets/mhdzahier/travel-insurance
-
-## 🧠 Model
-
-* Multi-Layer Perceptron (MLP)
-
-## ⚙️ Features
-
-* Data preprocessing
-* Model training and evaluation
-
-## 🚀 Result
-
-The model predicts customer decisions based on demographic and financial features.
-
-
-# Vehicle Price Prediction
-
-## 📌 Description
-
-This project predicts vehicle prices using a neural network regression model.
-
-## 📊 Dataset
-
-The dataset is sourced from Kaggle:
-https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
-
-## 🧠 Model
-
-* Multi-Layer Perceptron (MLP)
-
-## ⚙️ Features
-
-* Data preprocessing
-* Model training
-* Regression analysis
-
-## 🚀 Result
-
-The model estimates vehicle prices based on input features.
+To build practical experience in deep learning and create a strong ML portfolio.
